@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    background: #eeeeee;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+/*头部*/
+header {
+    font-size: 0;
+    width: 100%;
+    height: .35rem;
+    background: #ff8a00;
+    overflow: hidden;
+    padding-top: .05rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px -1px #727473;
+}
+
+header .logo {
+    display: inline-block;
+    width: .9rem;
+    height: .3rem;
+    background: url(../image/index/logo.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
+    margin-left: .3rem;
+}
+
+header div {
+    margin-right: .3rem;
+}
+
+header .my {
+    display: inline-block;
+    width: .25rem;
+    height: .3rem;
+    background: url(../image/index/my.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-right: .2rem;
+}
+
+header .APP {
+    display: inline-block;
+    width: .25rem;
+    height: .3rem;
+    background: url(../image/index/xiazai.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*底部*/
+footer {
+    font-size: 0;
+    width: 100%;
+    background: #2f3130;
+    box-sizing: border-box;
+    padding: 0 .2rem;
+    color: #727473;
+
+}
+
+footer p {
+    font-size: .14rem;
+    line-height: .35rem;
+    border-bottom: 1px solid #727473;
+}
+footer p a {
+    color: #727473;
+}
+
+footer > div {
+    font-size: .14rem;
+    display: flex;
+    width: 100%;
+    margin: .1rem 0;
+    justify-content: space-around;
+}
+
+footer > div .f_apple {
+    display: inline-block;
+    width: .37rem;
+    height: .43rem;
+    background: url(../image/index/apple.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+footer > div .f_android {
+    display: inline-block;
+    width: .37rem;
+    height: .43rem;
+    background: url(../image/index/android.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+footer > div span {
+    display: inline-block;
+    width: .5rem;
+    height: .43rem;
+    margin-left: .1rem;
+}
+
+footer > span {
+    display: block;
+    text-align: center;
+    font-size: .14rem;
+    padding-bottom: .1rem;
+}
+
+footer > span:last-child {
+    font-size: .12rem;
+    transform: scale(.8);
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>找房无忧列表页</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/liebiao.css">
+    <script src="js/zepto.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/doT.min.js"></script>
+    <script src="js/liebiao.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <a href="./index.html"><i class="logo"></i></a>
+    <div>
+        <a href="my.html"><i class="my"></i></a>
+        <a href=""><i class="APP"></i></a>
+    </div>
+</header>
+<!--顶部搜索-->
+<div class="search">
+    <div>
+        <input type="text" placeholder="请输入小区名或商圈名称">
+        <i class="search_i"></i>
+    </div>
+</div>
+<!--筛选-->
+<div class="shaixuan">
+    <ul>
+        <li class="shaixuan_zz"></li>
+        <li class="shaixuan_1">
+            <h4>区域</h4>
+            <i></i>
+            <div class="fenlei">
+                <div>
+                    <h4 class="fenlei_h">区域</h4>
+                    <h4>地铁</h4>
+                    <div></div>
+                </div>
+                <div>
+                    <ul>
+                        <li>附近</li>
+                        <li class="fenlei_h">不限</li>
+                        <li>不限</li>
+                        <li>安贞</li>
+                        <li class="fenlei_h">朝阳</li>
+                        <li>奥林匹克公园</li>
+                        <li>海淀</li>
+                        <li>百子湾</li>
+                        <li>昌平</li>
+                        <li>北工大</li>
+                        <li>丰台</li>
+                        <li>北苑</li>
+                        <li>石景山</li>
+                        <li>CBD</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="shaixuan_2">
+            <h4>价格</h4>
+            <i></i>
+            <div class="fenlei">
+                <ul>
+                    <li>不限</li>
+                    <li>100万以下</li>
+                    <li>100万-150万</li>
+                    <li>150万-200万</li>
+                    <li>200万-250万</li>
+                    <li>250万-300万</li>
+                    <li>自定义价格</li>
+                </ul>
+            </div>
+        </li>
+        <li class="shaixuan_3">
+            <h4>房型</h4>
+            <i></i>
+            <div class="fenlei">
+                <ul>
+                    <li>不限</li>
+                    <li>1室 <i></i></li>
+                    <li>2室 <i></i></li>
+                    <li>3室 <i></i></li>
+                    <li>4室 <i></i></li>
+                    <li>5室 <i></i></li>
+                </ul>
+                <button>确定</button>
+            </div>
+        </li>
+        <li class="shaixuan_4">
+            <h4>更多</h4>
+            <i></i>
+            <div class="fenlei">
+                <div>
+                    <span>区域</span>
+                    <ul>
+                        <li>南</li>
+                        <li>南北</li>
+                        <li>东</li>
+                        <li>西</li>
+                        <li>北</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>面积（平方）</span>
+                    <ul>
+                        <li>50以下</li>
+                        <li>50-70</li>
+                        <li>70-90</li>
+                        <li>90-110</li>
+                        <li>110-130</li>
+                        <li>130-150</li>
+                        <li>150-200</li>
+                        <li>200以上</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>标签</span>
+                    <ul>
+                        <li>学区房</li>
+                        <li>地铁房</li>
+                        <li>不限购</li>
+                        <li>满两年</li>
+                        <li>满五唯一</li>
+                        <li>降价</li>
+                        <li>新上</li>
+                        <li>独家</li>
+                        <li>有钥匙</li>
+                    </ul>
+                </div>
+                <div>
+                    <span>楼龄</span>
+                    <ul>
+                        <li>5年以内</li>
+                        <li>10年以内</li>
+                        <li>10-20年</li>
+                        <li>20年以上</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--房详情-->
+<div class="txt">
+    <ul></ul>
+    <script id="liebiao" type="text/x-dot-template">
+        {{~it.liebiao:value:index}}
+        <a href="./xiangqing.html"><li>
+            <img src="{{=value.src}}" alt="">
+            <div>
+                <h5>{{=value.title}}</h5>
+                <p>{{=value.chaoxiang}}<span></span></p>
+                <p>{{=value.pingfang}}<span>{{=value.jia}}</span></p>
+                <p>{{=value.riqi}}</p>
+            </div>
+        </li></a>
+        {{~}}
+    </script>
+</div>
+<!--底部-->
+<footer>
+    <p>北京找房无忧网 > <a href="index.html">首页</a> > <a href="#">列表页</a></p>
+    <div>
+        <div><i class="f_apple"></i><span>iphone客户端</span></div>
+        <div><i class="f_android"></i><span>Android客户端</span></div>
+    </div>
+    <span>北京找房无忧房地产经纪有限公司</span>
+    <span>网络经营许可证 京ICP备20160812号-12</span>
+</footer>
+</body>
+</html>

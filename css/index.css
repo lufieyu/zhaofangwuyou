@@ -1,0 +1,263 @@
+/*首页banner*/
+.banner {
+    font-size: 0;
+    width: 100%;
+    height: 2.2rem;
+    background: url(../image/index/banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner input {
+    width: 2.8rem;
+    height: .3rem;
+    border-radius: .05rem;
+    position: absolute;
+    bottom: .1rem;
+    left: .2rem;
+    background: #fff url(../image/index/seach.jpg) no-repeat;
+    background-size: auto 80%;
+    background-position: .05rem;
+    text-indent: .3rem;
+}
+
+/*首页导航*/
+nav {
+    font-size: 0;
+    width: 100%;
+    height: 1.1rem;
+    background: #ff8a00;
+    margin-bottom: .1rem;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav_i {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .05rem;
+}
+
+nav ul li:nth-child(1) i {
+    background: url(../image/index/index_03.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+nav ul li:nth-child(2) i {
+    background: url(../image/index/index_05.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+nav ul li:nth-child(3) i {
+    background: url(../image/index/index_07.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+nav ul li:nth-child(4) i {
+    background: url(../image/index/index_09.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+nav span {
+    display: block;
+    text-align: center;
+    font-size: .14rem;
+    color: white;
+}
+
+/*首页banner2*/
+.banner_2 {
+    width: 100%;
+    height: 2.08rem;
+    background: url(../image/index/banner2.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: .1rem;
+}
+
+/*热门房源*/
+.hot_fy {
+    font-size: 0;
+    margin-bottom: .1rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.hot_fy > div {
+    width: 100%;
+    height: .4rem;
+    background: #ff8a00;
+    color: white;
+    padding-top: .1rem;
+    font-size: .16rem;
+    text-indent: .2rem;
+}
+
+.hot_fy > div span {
+    display: block;
+}
+
+.hot_fy > div span:last-child {
+    transform: scale(.7);
+    margin-left: -.5rem;
+    margin-top: -.05rem;
+}
+
+.hot_fy ul {
+    list-style: none;
+    width: 2.8rem;
+    padding: 0 .2rem;
+}
+
+.hot_fy ul li {
+    padding: .2rem 0;
+    border-bottom: 1px solid #ff8a00;
+    display: flex;
+}
+
+.hot_fy ul li:last-child {
+    border-bottom: none;
+}
+.hot_fy li img {
+    width: .9rem;
+    height: .9rem;
+
+}
+.hot_fy li div {
+    margin-left: .1rem;
+}
+
+.hot_fy li div h5 {
+    width: 1.83rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .16rem;
+    margin-bottom: .05rem;
+    color: #000;
+}
+
+.hot_fy li div p:nth-child(2) {
+    font-size: .14rem;
+    margin-bottom: .05rem;
+    color: #000;
+}
+
+.hot_fy li div p:nth-child(2) span {
+    float: right;
+    color: #ff8a00;
+}
+
+.hot_fy li div p:nth-child(3) {
+    font-size: .12rem;
+    color: #ccc;
+    margin-bottom: .05rem;
+}
+
+.hot_fy li div p:nth-child(3) span {
+    float: right;
+}
+
+.hot_fy li div > span {
+    font-size: .12rem;
+    background: #eeeeee;
+    color: #ccc;
+    margin-right: .05rem;
+}
+
+/*热门关注*/
+.hot_gz {
+    font-size: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.hot_gz_title {
+    width: 3.2rem;
+    height: .4rem;
+    color: #ff8a00;
+    font-size: .16rem;
+    overflow: hidden;
+}
+.hot_gz_title span{
+    display: block;
+    float: left;
+    width: 1.6rem;
+    height: .4rem;
+    text-align: center;
+    line-height: .4rem;
+    border-bottom: 1px solid #ff8a00;
+    box-sizing: border-box;
+}
+.hot_gz_title span:nth-child(2){
+    color: #888;
+    border-bottom: 1px solid #888;
+}
+.hot_gz_txt{
+    overflow: hidden;
+    font-size: .14rem;
+
+}
+.hot_gz_txt ul{
+    padding: .1rem .2rem;
+    list-style: none;
+    float: left;
+    width: 1.2rem;
+    line-height: .2rem;
+}
+
+/*底部广告*/
+.guanggao{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: .4rem;
+    background: rgba(0,0,0,.4);
+    overflow: hidden;
+}
+.guanggao i{
+    display: block;
+    float: left;
+    width: .18rem;
+    height: .2rem;
+    background: url(../image/index/close.png) no-repeat;
+    background-size: 100% 100%;
+}
+.guanggao img{
+    float: left;
+    width: .3rem;
+    height: .3rem;
+    padding: .1rem .2rem 0 .15rem;
+}
+.guanggao div{
+    float: left;
+}
+.guanggao div p:first-child{
+    padding-top: .05rem;
+    font-size: .14rem;
+    color: #fff;
+}
+.guanggao div p:last-child{
+    font-size: .12rem;
+    color: #fff;
+}
+.guanggao span{
+    display: inline-block;
+    float: right;
+    font-size: .14rem;
+    background: #ff8a00;
+    color: #ffffff;
+    width: 1rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+}

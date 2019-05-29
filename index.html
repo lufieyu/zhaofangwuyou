@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>找房无忧主页</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="js/zepto.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/doT.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <a href="./index.html"><i class="logo"></i></a>
+    <div>
+        <a href="my.html"><i class="my"></i></a>
+        <a href=""><i class="APP"></i></a>
+    </div>
+</header>
+<!--首页banner-->
+<div class="banner">
+    <input type="text" placeholder="输入小区或商圈名开始找房咯！">
+</div>
+<!--首页导航-->
+<nav>
+    <ul>
+        <li><a href="./liebiao.html"><i class="nav_i"></i><span>二手房</span></a></li>
+        <li><a href="./liebiao.html"><i class="nav_i"></i><span>新房</span></a></li>
+        <li><a href="./liebiao.html"><i class="nav_i"></i><span>租房</span></a></li>
+        <li><a href="./liebiao.html"><i class="nav_i"></i><span>卖房</span></a></li>
+    </ul>
+</nav>
+<!--首页banner2-->
+<div class="banner_2"></div>
+<!--热门房源-->
+<div class="hot_fy">
+    <div>
+        <span>热门房源</span>
+        <span>Hot house</span>
+    </div>
+    <ul>
+        <li>
+            <img src="./image/index/img1.jpg" alt="">
+            <div>
+                <h5>文化部中间层 一层带阁楼楼</h5>
+                <p>2室1厅96㎡南北<span>1105万</span></p>
+                <p>红庙北里<span>14268元/平</span></p>
+                <span>学区房</span><span>独家</span>
+            </div>
+        </li>
+    </ul>
+        <script id="fangyuan" type="text/x-dot-template">
+            {{~it.fangyuan:value:index}}
+            <a href="./xiangqing.html"><li>
+                <img src="{{=value.src}}" alt="">
+                <div>
+                    <h5>{{=value.title}}</h5>
+                    <p>{{=value.chaoxiang}}<span>{{=value.jia}}</span></p>
+                    <p>{{=value.dizhi}}<span>{{=value.pingfang}}</span></p>
+                    {{~value.tedian:val:ind}}
+                    <span>{{=val}}</span>
+                    {{~}}
+                </div>
+            </li></a>
+            {{~}}
+        </script>
+</div>
+<!--热门关注-->
+<div class="hot_gz">
+    <div class="hot_gz_title">
+        <span>热门关注</span>
+        <span>友情链接</span>
+    </div>
+    <div class="hot_gz_txt">
+        <ul>
+            <li>北京二手房</li>
+            <li>北京二手房价</li>
+            <li>海淀日租房</li>
+            <li>朝阳新房</li>
+        </ul>
+        <ul>
+            <li>北京找房无忧</li>
+            <li>青年家园</li>
+            <li>免税房源</li>
+            <li>满五年唯一免税</li>
+        </ul>
+    </div>
+</div>
+<!--底部广告-->
+<div class="guanggao">
+    <i></i>
+    <img src="image/index/download.png" alt="">
+    <div>
+        <p>找房无忧</p>
+        <p>市场行情，一手掌握！</p>
+    </div>
+    <span>免费下载</span>
+</div>
+<!--底部-->
+<footer>
+    <p>北京找房无忧网 > <a href="#">首页</a></p>
+    <div>
+        <div><i class="f_apple"></i><span>iphone客户端</span></div>
+        <div><i class="f_android"></i><span>Android客户端</span></div>
+    </div>
+    <span>北京找房无忧房地产经纪有限公司</span>
+    <span>网络经营许可证 京ICP备20160812号-12</span>
+</footer>
+</body>
+</html>

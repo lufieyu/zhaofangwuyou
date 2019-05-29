@@ -1,0 +1,28 @@
+{
+  "liebiao": [
+    {
+        "src":"./image/SecondHandList/img.png",
+      "title":"西便门外大街2室1厅89平",
+      "chaoxiang":"南北 高楼层/6层",
+      "pingfang":"签约价格:13244元/平",
+      "jia":"1105万",
+      "riqi":"签约日期:2015年11月10日"
+    },
+    {
+      "src":"./image/SecondHandList/img1.png",
+      "title":"花涧溪二期 2室2厅 90平",
+      "chaoxiang":"南北 高楼层/6层",
+      "pingfang":"签约价格:13244元/平",
+      "jia":"1322万",
+      "riqi":"签约日期:2015年11月10日"
+    },
+    {
+      "src":"./image/SecondHandList/img2.png",
+      "title":"金桥国际 1室1厅 63平",
+      "chaoxiang":"南北 高楼层/6层",
+      "pingfang":"签约价格:13244元/平",
+      "jia":"905万",
+      "riqi":"签约日期:2015年11月10日"
+    }
+  ]
+}

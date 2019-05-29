@@ -1,0 +1,263 @@
+/*顶部搜索*/
+.search{
+    font-size: 0;
+    width: 100%;
+    height: .5rem;
+    padding-top: .1rem;
+}
+.search div{
+    width: 2.8rem;
+    height: .4rem;
+    border: 1px solid #ccc;
+    border-radius: .05rem;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+}
+.search input{
+    border: none;
+    border-right: 1px solid #ccc;
+    width: 2.1rem;
+    height: .25rem;
+    margin-left: .2rem;
+    margin-top: .07rem;
+    background: white;
+    box-shadow: none;
+    outline:none
+}
+.search i{
+    display: block;
+    width: .23rem;
+    height: .25rem;
+    background: url(../image/SecondHandList/search_03.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .05rem;
+    right: .15rem;
+}
+
+/*筛选*/
+.shaixuan{
+    font-size: 0;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    background: white;
+}
+.shaixuan>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: .18rem;
+    color: #5d5d5d;
+    position: relative;
+}
+.shaixuan>ul>li{
+    height: .4rem;
+    line-height: .4rem;
+}
+.shaixuan .shaixuan_zz{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 4.11rem;
+    background: black;
+    opacity: .5;
+    display: none;
+}
+.shaixuan>ul>li>h4{
+    float: left;
+}
+.shaixuan .shaixuan_h{
+    color: #ff8a00;
+}
+.shaixuan>ul>li>i{
+    display: block;
+    float: left;
+    margin-top: .15rem;
+    margin-left: .03rem;
+    border-width:.05rem .05rem 0 .05rem;
+    border-style:solid;
+    border-color:#ccc transparent transparent transparent;
+}
+.shaixuan .shaixuan_i{
+    border-width:0 .05rem .05rem .05rem;
+    border-style:solid;
+    border-color:transparent transparent #ff8a00 transparent;
+}
+.shaixuan>ul>li>div{
+    position: absolute;
+    top: 100%;
+    width: 3.2rem;
+    left: 0;
+    background: white;
+    overflow: hidden;
+    display: none;
+}
+.shaixuan_1 .fenlei>div:nth-child(1){
+    float: left;
+    width: .8rem;
+    height: 100%;
+    background: #eeeeee;
+}
+.shaixuan_1 .fenlei h4{
+    height: .3rem;
+    line-height: .3rem;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+.shaixuan_1 .fenlei>div div{
+    height: 2rem;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.shaixuan .fenlei .fenlei_h{
+    color: #ff8a00;
+    background: white;
+    border-right: none;
+}
+.shaixuan_1 .fenlei>div:nth-child(2){
+    float: left;
+    width: 2.4rem;
+    height: 2.6rem;
+    border-bottom: 1px solid #ccc;
+}
+.shaixuan_1 .fenlei>div:nth-child(2) ul{
+    width: 100%;
+    overflow: hidden;
+}
+.shaixuan_1 .fenlei ul>li{
+    width: 1rem;
+    height: .36rem;
+    line-height: .36rem;
+    text-align: center;
+    font-size: .14rem;
+    float: left;
+}
+
+.shaixuan_2 .fenlei ul{
+    width: 2.8rem;
+    padding: 0 .2rem;
+    font-size: .12rem;
+}
+.shaixuan_2 .fenlei ul li{
+    border-bottom: 1px solid #ccc;
+}
+.shaixuan_2 .fenlei ul li:last-child{
+    border-bottom: none;
+}
+.shaixuan_3 .fenlei ul{
+    width: 2.8rem;
+    padding: 0 .2rem;
+    font-size: .12rem;
+}
+.shaixuan_3 .fenlei ul li{
+    border-bottom: 1px solid #ccc;
+}
+.shaixuan_3 .fenlei ul li:last-child{
+    border-bottom: none;
+}
+.shaixuan_3 .fenlei ul li i{
+    display: inline-block;
+    float: right;
+    width: .15rem;
+    height: .15rem;
+    border: 1px solid #ccc;
+    margin-top: .12rem;
+    margin-right: .2rem;
+}
+.shaixuan_3 .fenlei .fenlei_i{
+    background: url(../image/SecondHandList/ok.png) center center no-repeat;
+    border: 1px solid #ff8a00;
+}
+.shaixuan_3 .fenlei button{
+    width: 2.8rem;
+    height: .4rem;
+    margin: 0 .2rem .2rem .2rem;
+    border: none;
+    background: #ff8a00;
+    color: white;
+}
+.shaixuan_4 .fenlei{
+    width: 2.8rem;
+    padding: 0 .2rem;
+}
+.shaixuan_4 .fenlei div{
+    width: 2.8rem;
+    padding: .15rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.shaixuan_4 .fenlei span{
+    font-size: .14rem;
+    display: block;
+    font-weight: bold;
+}
+.shaixuan_4 .fenlei ul{
+    overflow: hidden;
+}
+.shaixuan_4 .fenlei li{
+    float: left;
+    width: .65rem;
+    height: .25rem;
+    line-height: .25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: .12rem;
+    margin-right: .05rem;
+    margin-bottom: .05rem;
+    box-sizing: border-box;
+}
+.shaixuan_4 .fenlei .fenlei_b{
+    color: #ff8a00;
+    border-color: #ff8a00;
+}
+
+/*房详情*/
+.txt{
+    font-size: 0;
+    width: 2.8rem;
+    padding: 0 .2rem;
+}
+.txt ul{
+    width: 100%;
+}
+.txt ul li{
+    width: 100%;
+    padding: .25rem 0;
+    border-bottom: 1px solid #ff8a00;
+    overflow: hidden;
+}
+.txt ul li:last-child{
+    border-bottom:none;
+}
+.txt ul li img{
+    float: left;
+    width: .8rem;
+    height: .8rem;
+}
+.txt ul li div{
+    float: left;
+    font-size: .12rem;
+    margin-left: .1rem;
+}
+.txt ul li h5{
+    font-size: .14rem;
+    margin-bottom: .1rem;
+    margin-top: -.05rem;
+    color: black;
+}
+.txt ul li p:nth-child(2){
+    font-weight: bold;
+    margin-bottom: .05rem;
+    color: black;
+}
+.txt ul li p:nth-child(3){
+    color: #888;
+    margin-bottom: .05rem;
+}
+.txt ul li p:nth-child(3) span{
+    color: #ff8a00;
+}
+.txt ul li p:nth-child(4){
+    color: #888;
+    margin-bottom: .05rem;
+}
